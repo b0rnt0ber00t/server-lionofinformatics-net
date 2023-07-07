@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="title" content="Lion of Informatics">
+    <meta name="description" content="We are is a startup that aims to develop a technology ecosystem in Indonesia. We are provides various products & services for the needs of companies.">
+    <meta name="keywords" content="web development, jasa pembuatan website, jasa pembuatan aplikasi, aplikasi custom, cms, erp, smartschool, pos, vendor startup, startup technology, jasa design, jasa uiux, website, informatics, informatika, cara membuat website, informatics enginering, website undangan online, viding.co, rizqullah.co, viding, rizqullah, indonesia, teknologi, berita teknologi, pemrograman, belajar ngoding, website murah, desain logo, desain feed instagram, desain">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="revisit-after" content="100 days">
+    <meta name="author" content="Lion of Informatics">
+    <meta name="language" content="Indonesia">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Icon -->
+    <meta name="msapplication-TileColor" content="#FFFFF">
+    <meta name="msapplication-config" content="./assets/icons/lionofinformatics.ico">
+    <link rel="shortcut icon" href="https://server.lionofinformatics.net/assets/icons/lionofinformatics.ico" type="image/x-icon" alt="lionofinformatics">
+    <link rel="manifest" href="https://server.lionofinformatics.net/assets/icons/lionofinformatics.ico">
+    <link rel="shortcut icon" href="https://server.lionofinformatics.net/assets/icons/lionofinformatics.ico" type="image/ico" alt="lionofinformatics">
+    <link rel="apple-touch-icon" href="https://server.lionofinformatics.net/assets/icons/lionofinformatics.ico">
+    
+    <link rel="stylesheet" href="https://server.lionofinformatics.net/assets/styles/style.css?ver=1.3">
+    <link rel="stylesheet" href="https://server.lionofinformatics.net/assets/styles/reusable.css?ver=1.3">
+
+    <link rel="stylesheet" href="https://server.lionofinformatics.net/assets/styles/bootstrap-v5.2.3/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://server.lionofinformatics.net/assets/styles/swiperjs-v9.0.5/swiper-bundle.min.css">
+    <script src="https://server.lionofinformatics.net/assets/js/swiperjs-v9.0.5/swiper-bundle.min.js"></script>
+
+    <title>Server</title>
+    <script>
+        async function getData(url) {
+            try {
+                let res = await fetch(url);
+                return await res.json();
+            } catch (error) {
+                console.log(error);
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div id="backToTop" class="position-fixed right-0" style="right: 1.5vw;bottom: 12vh;z-index:10;">
+        <button class="btn btn-lg text-dark-blue" onclick="goTop()"><i class="fas fa-chevron-up"></i></button>
+    </div><nav class="navbar navbar-expand-md sticky-top bg-light navbar-custom w-100 shadow py-lg-0">
+  <div class="container-xl py-2 d-flex flex-wrap align-items-center fw-semibold" style="height: inherit;width: inherit;">
+    <a href="/" class="logo underline-none p-lg-2 d-flex flex-wrap align-items-center justify-content-start col-6 col-md-4 col-lg-6" style="height: inherit;">
+      <img loading="lazy" src="https://server.lionofinformatics.net/assets/images/logo/logo-nav.png" alt="Logo LOI" class="proper-images nav-logo-small col-12 col-md-6 me-lg-2">
+      <span class="poppins fs-16px text-dark-blue col-12 col-lg-6 ms-2">Server &amp; Domain</span>
+    </a>
+    <button class="navbar-toggler border-none col-2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse col-12 col-md-8 col-lg-6 poppins fw-normal collapse" id="navbarScroll" style="">
+      <ul class="navbar-nav ms-auto navbar-nav-scroll text-center text-lg-start mb-4 mb-sm-0 p-2 align-items-center col-12 justify-content-end" style="--bs-scroll-height: 250px;">
+        <li class="nav-item me-3">
+          <a class="nav-link text-dark" href="#" role="button" aria-expanded="false">About</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link text-dark" href="#" role="button" aria-expanded="false">Program</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link text-dark" href="#" role="button" aria-expanded="false">Vacancy</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link text-dark" href="#" role="button" aria-expanded="false">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="btn btn-primary px-4 py-1 w-100 fw-semibold">Sign In</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<section id="hero" class="poppins bg-white">
+  <div class="d-flex flex-wrap h-100 align-items-center w-100">
+    <div class="col-12 col-lg-6 mt-5 mt-lg-0 p-3 p-sm-5">
+      <h1 class="text-dark-blue fw-semibold poppins fs-2 pe-0 pe-lg-5 mb-4">Server Cepat dan Aman Yang Berkinerja Lebih dari apa yang Anda Butuhkan! </h1>
+      <div class="d-flex flex-column mb-4"> 
+        <div class="d-flex flex-wrap align-items-center mb-3">
+          <img src="https://server.lionofinformatics.net/assets/icons/cservice-icon.svg" class="me-3 bg-dark-blue p-2 rounded-circle" height="35" width="35">
+          <span>Fulltime Support</span>
+        </div>
+        <div class="d-flex flex-wrap align-items-center mb-3">
+          <img src="https://server.lionofinformatics.net/assets/icons/clouddb-icon.svg" class="me-3 bg-dark-blue p-2 rounded-circle" height="35" width="35">
+          <span>Free Backups, Migrations &amp; SSL</span>
+        </div>
+      </div>
+      <div class="d-flex flex-wrap">
+        <a href="#" class="btn btn-primary btn-lg me-3 fs-6 rounded-0 col-12 col-sm-3 mb-3 mb-sm-0">Domain</a>
+        <a href="#" class="btn btn-primary btn-lg me-3 fs-6 rounded-0 col-12 col-sm-3">Server</a>
+      </div>
+    </div>
+    <div class="col-12 col-lg-6 h-100 d-none d-lg-block">
+      <img src="https://server.lionofinformatics.net/assets/images/background/hero/server-room.png" class="w-100 h-100 obj-position-center obj-fit-cover" alt="server room">
+    </div>
+  </div>
+</section>
+
+<section id="partner" class="mb-5 pb-5">
+    <div class="container my-5 d-flex flex-wrap">
+        <div class="poppins mb-5 col-12 col-lg-5 pe-lg-5">
+            <h1 class="fs-3 text-dark-blue pe-lg-5">Telah dioptimasi untuk berbagai CMS dan framework</h1>
+        </div>
+        <div class="col-12 col-lg-7">
+            <div class="position-relative">
+                <div class="swiper swiperPartner">
+                    <div class="swiper-wrapper mb-4">
+                        <div class="swiper-slide">
+                            <img src="https://server.lionofinformatics.net/assets/images/logo/php.png" alt"php"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://server.lionofinformatics.net/assets/images/logo/python.png" alt"phyton"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://server.lionofinformatics.net/assets/images/logo/joomla.png" alt"joomla"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://server.lionofinformatics.net/assets/images/logo/prestashop.png" alt"prestashop"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://server.lionofinformatics.net/assets/images/logo/laravel.png" alt"laravel"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="position-relative">
+                <div class="swiper swiperPartner" autoplay-delay="2500">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="https://server.lionofinformatics.net/assets/images/logo/node.png" alt"node"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://server.lionofinformatics.net/assets/images/logo/wordpress.png" alt"wordpress"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://server.lionofinformatics.net/assets/images/logo/drupal.png" alt"drupal"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://server.lionofinformatics.net/assets/images/logo/noodle.png" alt"moodle"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://server.lionofinformatics.net/assets/images/logo/logo-ci.png" alt"ci"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .swiperPartner .swiper-slide img {
+        width: 100%;
+        height: 40px;
+        object-position: center;
+        object-fit: contain;
+    }
+</style>
+
+<script>
+    const swiperPartner = new Swiper(".swiperPartner", {
+        autoplay: true,
+        grabCursor: true,
+        loop: true,
+        centeredSlides: false,
+        slidesPerView: 2,
+        spaceBetween: 10,
+        breakpoints: {
+                // when window width is >= 320px
+                576: {
+                    slidesPerView: 2,
+                    spaceBetween: 10
+                },
+                // when window width is >= 480px
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 15
+                },
+                // when window width is >= 640px
+                992: {
+                    slidesPerView: 5,
+                    spaceBetween: 30
+            },
+        },
+    });
+</script>
+
+<section id="registerDomain" class="mb-5 pt-5 pb-4 px-3 px-sm-4 px-md-5 bg-dark-blue position-relative">
+    <div class="container text-white poppins">
+        <div class="poppins mb-5">
+            <h1 class="fs-3 fw-semibold mb-2">Domain Terlengkap</h1>
+            <p class="fs-5">
+                Kami menyediakan berbagai domain mulai dari TLD, ccTLD, gTLD, dan Blockchain Domain
+            </p>
+        </div>
+        <div class="row">
+            <ul class="nav mb-4 d-flex flex-wrap" id="register-domain-tab" role="tablist">
+                <li class="nav-item col-6 col-md-3 col-xl-2 mb-3 mb-md-0" role="presentation">
+                    <button class="nav-link fs-5 rounded-1 btn btn-outline-light w-100 active" id="register-tab" data-bs-toggle="pill" data-bs-target="#pills-register" type="button" role="tab" aria-controls="pills-register" aria-selected="true">Register</button>
+                </li>
+                <li class="nav-item col-6 col-md-3 col-xl-2 mb-3 mb-md-0" role="presentation">
+                    <button class="nav-link fs-5 rounded-1 btn btn-outline-light w-100 w-100" id="transfer-tab" data-bs-toggle="pill" data-bs-target="#pills-transfer" type="button" role="tab" aria-controls="pills-transfer" aria-selected="false">Transfer</button>
+                </li>
+            </ul>
+            <div class="tab-content ps-0" id="pills-tabRegister">
+                <div class="tab-pane fade show active" id="pills-register" role="tabpanel" aria-labelledby="register-tab" tabindex="0">
+                    <div class="col-12 col-lg-6">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control input-lg" placeholder="yourdomain.com" aria-label="domain" aria-describedby="domain">
+                            <button class="input-group-text btn btn-lg btn-primary" id="searchdomain"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-transfer" role="tabpanel" aria-labelledby="transfer-tab" tabindex="0">
+                    <div class="col-12 col-lg-6">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control input-lg" placeholder="yourdomain.com" aria-label="domain" aria-describedby="domain">
+                            <button class="input-group-text btn btn-lg btn-primary" id="searchdomain"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-5">
+            <div class="col-auto">
+                <span class="domainLevel fs-4 fw-bold">.co</span>
+                <span class="domainPrice fs-5">Rp 100.000</span>
+            </div>
+            <div class="col-auto">
+                <span class="domainLevel fs-4 fw-bold">.io</span>
+                <span class="domainPrice fs-5">Rp 100.000</span>
+            </div>
+            <div class="col-auto">
+                <span class="domainLevel fs-4 fw-bold">.id</span>
+                <span class="domainPrice fs-5">Rp 100.000</span>
+            </div>
+            <div class="col-auto">
+                <span class="domainLevel fs-4 fw-bold">.crypto</span>
+                <span class="domainPrice fs-5">Rp 100.000</span>
+            </div>
+        </div>
+    </div>
+    <img src="https://server.lionofinformatics.net/assets/images/logo/icann.png" class="position-absolute bottom-0 right-0 mb-1 d-none d-md-block">
+</section>
+
+<style>
+    #registerDomain {
+
+    }
+    
+    #registerDomain .nav-link.active, #registerDomain .nav-link:focus, #registerDomain .nav-link:hover {
+        color: var(--bs-nav-link-hover-color);
+    }
+
+    #registerDomain .nav-link {
+        color: white;
+    }
+</style>
+
+<section id="packageBasic" class="mb-5 pb-5">
+    <div class="container my-5">
+        <div class="d-flex flex-wrap mb-5">
+            <div class="poppins col-12 col-lg-5 col-xl-4 mb-4 mb-lg-0">
+                <h1 class="fs-4 text-dark-blue fw-semibold">Temukan Server yang sesuai dengan Kebutuhan mu !!!</h1>
+            </div>
+            <div class="col-12 col-lg-5 offset-lg-2 col-xl-4 offset-xl-4">
+                <div class="position-relative">
+                    <div class="swiper swiperLiteSponsor">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="https://server.lionofinformatics.net/assets/images/logo/litespeed.png" alt="litespeed">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://server.lionofinformatics.net/assets/images/logo/ssl.png" alt="ssl">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://server.lionofinformatics.net/assets/images/logo/whois.png" alt="whois">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://server.lionofinformatics.net/assets/images/logo/open-dns.png" alt="open-dns">
+                            </div>
+                        </div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                </div>
+            </div>
+        </div>
+        <!-- nav-pills -->
+        <ul class="nav mb-4 d-flex flex-wrap" id="packages-tab" role="tablist">
+            <li class="nav-item col-6 col-md-3 col-xl-2 pe-4 mb-3 mb-md-0" role="presentation">
+                <button class="nav-link fs-6 rounded-1 btn btn-outline-primary px-4 py-1 me-2 w-100" id="sharehost-tab" data-bs-toggle="pill" data-bs-target="#pills-sharehost" type="button" role="tab" aria-controls="pills-sharehost" aria-selected="true">Sharehost</button>
+            </li>
+            <li class="nav-item col-6 col-md-3 col-xl-2 pe-4 mb-3 mb-md-0" role="presentation">
+                <button class="nav-link fs-6 rounded-1 btn btn-outline-primary px-4 py-1 me-2 w-100" id="cloudhost-tab" data-bs-toggle="pill" data-bs-target="#pills-cloudhost" type="button" role="tab" aria-controls="pills-cloudhost" aria-selected="false">Cloudhost</button>
+            </li>
+            <li class="nav-item col-6 col-md-3 col-xl-2 pe-4 mb-3 mb-md-0" role="presentation">
+                <button class="nav-link fs-6 rounded-1 btn btn-outline-primary px-4 py-1 me-2 w-100 active" id="vps-tab" data-bs-toggle="pill" data-bs-target="#pills-vps" type="button" role="tab" aria-controls="pills-vps" aria-selected="false">VPS</button>
+            </li>
+            <li class="nav-item col-6 col-md-3 col-xl-2 pe-4 mb-3 mb-md-0" role="presentation">
+                <button class="nav-link fs-6 rounded-1 btn btn-outline-primary px-4 py-1 me-2 w-100" id="dedicated-tab" data-bs-toggle="pill" data-bs-target="#pills-dedicated" type="button" role="tab" aria-controls="pills-dedicated" aria-selected="false">Dedicated</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabPackage">
+            <div class="tab-pane fade" id="pills-sharehost" role="tabpanel" aria-labelledby="sharehost-tab" tabindex="0">...</div>
+            <div class="tab-pane fade" id="pills-cloudhost" role="tabpanel" aria-labelledby="cloudhost-tab" tabindex="0">...</div>
+            <div class="tab-pane fade show active" id="pills-vps" role="tabpanel" aria-labelledby="vps-tab" tabindex="0">
+                <p class="fs-5 text-light-grey mb-4">
+                    VPS adalah singkatan dari Virtual Private Server, yaitu salah satu layanan web hosting yang menggunakan teknologi virtualisasi dan menyediakan resource khusus (pribadi) di server meskipun digunakan oleh lebih dari satu user. <a href="#" class="text-underline-none">Selengkapnya</a>
+                </p>
+                <div class="row">
+                    <div class="col-12 col-xl-4 mb-3 mb-xl-0 px-3 px-sm-5 px-xl-3">
+                        <div class="card card-basic-package h-100">
+                            <div class="card-body p-4 d-flex flex-column poppins">
+                                <h2 class="fs-4 mb-2 text-center">Essential</h2>
+                                <h3 class="fs-5 text-center fw-light mb-4">Recomendation for Start Up</h3>
+                                <div class="d-flex flex-wrap justify-content-between mb-4">
+                                    <div class="col-auto d-flex flex-column">
+                                        <span class="text-decoration-line-through text-danger fs-5">IDR 11jt</span>
+                                        <span class="fs-2 text-light-grey">IDR 7.5jt</span>
+                                    </div>
+                                    <div class="col-auto mt-auto">
+                                        <span class="fs-14px text-light-grey">/years</span>
+                                    </div>
+                                </div>
+                                <div class="list-detail-package mb-5">
+                                    <div class="collapse-title p-2 d-flex flex-wrap justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEssential1" aria-expanded="true" aria-controls="#collapseEssential1">
+                                        <span class="content-title text-start text-dark-blue col-auto ps-2">Server App</span>
+                                        <i class="fas fa-chevron-down col-auto"></i>
+                                    </div>
+                                    <div class="collapse flex-column show" id="collapseEssential1">
+                                        <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                            <span>RAM</span>
+                                            <span>2 GB</span>
+                                        </div>
+                                        <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                            <span>CPU</span>
+                                            <span>3 Core</span>
+                                        </div>
+                                        <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                            <span>Storage</span>
+                                            <span>50 GB</span>
+                                        </div>
+                                        <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                            <span>Bandwith</span>
+                                            <span>Unlimited</span>
+                                        </div>
+                                        <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                            <span>Network Speed</span>
+                                            <span>500 Mbps</span>
+                                        </div>
+                                        <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                            <span>SSL Certificate</span>
+                                            <span>Yes</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-auto mx-auto">
+                                    <a href="#" class="btn btn-lg btn-action fs-6 px-5">Purchase Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-4 mb-3 mb-xl-0 px-3 px-sm-5 px-xl-3">
+                        <div class="card card-basic-package h-100">
+                            <div class="card-body p-4 d-flex flex-column poppins">
+                                <h2 class="fs-4 mb-2 text-center">Advanced</h2>
+                                <h3 class="fs-5 text-center fw-light mb-4">Recomendation for Start Up</h3>
+                                <div class="d-flex flex-wrap justify-content-between mb-4">
+                                    <div class="col-auto d-flex flex-column">
+                                        <span class="text-decoration-line-through text-danger fs-5">IDR 12.5jt</span>
+                                        <span class="fs-2 text-light-grey">IDR 10jt</span>
+                                    </div>
+                                    <div class="col-auto mt-auto">
+                                        <span class="fs-14px text-light-grey">/years</span>
+                                    </div>
+                                </div>
+                                <div class="list-detail-package mb-5">
+                                    <div class="collapse-title p-2 d-flex flex-wrap justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAdvanced1" aria-expanded="true" aria-controls="#collapseAdvanced1">
+                                        <span class="content-title text-start text-dark-blue col-auto ps-2">Server App</span>
+                                        <i class="fas fa-chevron-down col-auto"></i>
+                                    </div>
+                                    <div class="collapse flex-column show" id="collapseAdvanced1">
+                                        <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                            <span>RAM</span>
+                                            <span>4 GB</span>
+                                        </div>
+                                        <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                            <span>CPU</span>
+                                            <span>6 Core</span>
+                                        </div>
+                                        <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                            <span>Storage</span>
+                                            <span>80 GB</span>
+                                        </div>
+                                        <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                            <span>Bandwith</span>
+                                            <span>Unlimited</span>
+                                        </div>
+                                        <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                            <span>Network Speed</span>
+                                            <span>500 Mbps</span>
+                                        </div>
+                                        <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                            <span>SSL Certificate</span>
+                                            <span>Yes</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-auto mx-auto">
+                                    <a href="#" class="btn btn-lg btn-action fs-6 px-5">Purchase Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-4 mb-3 mb-xl-0 px-3 px-sm-5 px-xl-3">
+                        <div class="card card-basic-package h-100">
+                            <div class="card-body p-4 d-flex flex-column poppins">
+                                <h2 class="fs-4 mb-2 text-center">Ultimate</h2>
+                                <h3 class="fs-5 text-center fw-light mb-4">Recomendation for Start Up</h3>
+                                <div class="d-flex flex-wrap justify-content-between mb-4">
+                                    <div class="col-auto d-flex flex-column">
+                                        <span class="text-decoration-line-through text-danger fs-5">IDR 16jt</span>
+                                        <span class="fs-2 text-light-grey">IDR 12.5jt</span>
+                                    </div>
+                                    <div class="col-auto mt-auto">
+                                        <span class="fs-14px text-light-grey">/years</span>
+                                    </div>
+                                </div>
+                                <div class="list-detail-package mb-5">
+                                    <div class="collapse-title p-2 d-flex flex-wrap justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUltimate1" aria-expanded="true" aria-controls="#collapseUltimate1">
+                                        <span class="content-title text-start text-dark-blue col-auto ps-2">Server App</span>
+                                        <i class="fas fa-chevron-down col-auto"></i>
+                                    </div>
+                                    <div class="collapse flex-column show" id="collapseUltimate1">
+                                        <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                            <span>RAM</span>
+                                            <span>12 GB</span>
+                                        </div>
+                                        <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                            <span>CPU</span>
+                                            <span>9 Core</span>
+                                        </div>
+                                        <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                            <span>Storage</span>
+                                            <span>120 GB</span>
+                                        </div>
+                                        <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                            <span>Bandwith</span>
+                                            <span>Unlimited</span>
+                                        </div>
+                                        <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                            <span>Network Speed</span>
+                                            <span>500 Mbps</span>
+                                        </div>
+                                        <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                            <span>SSL Certificate</span>
+                                            <span>Yes</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-auto mx-auto">
+                                    <a href="#" class="btn btn-lg btn-action fs-6 px-5">Purchase Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-dedicated" role="tabpanel" aria-labelledby="dedicated-tab" tabindex="0">...</div>
+        </div>
+    </div>
+</section>
+<style>
+    #packageBasic {
+
+    }
+
+    #packageBasic .card-basic-package {
+        background: #FFFFFF;
+        box-shadow: 0px 5px 10px rgba(79, 79, 79, 0.25);
+        border-radius: 10px;
+    }
+
+    #packageBasic .card-basic-package .btn-action {
+        background: #D9D9D9;
+        border-radius: 25px;
+    }
+
+    #packageBasic .list-detail-package .collapse-title {
+        box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
+    }
+
+    #packageBasic .list-detail-package .content-title {
+        border-left: 1px solid #2A579A;
+    }
+
+    #packageBasic .list-detail-package .content-list {
+        border-bottom: 1px solid #D9D9D9;
+        color: #828282;
+    }
+    
+    #packageBasic .list-detail-package .collapse-title .fa-chevron-down {
+        /* transform: rotate(0deg) !important; */
+    }
+
+    #packageBasic .list-detail-package .collapse-title.collapsed .fa-chevron-down {
+        transform: rotate(180deg) !important;
+    }
+
+    #packageBasic .nav-link:focus, #packageBasic .nav-link:hover {
+        color: white;
+    }
+
+    .swiperLiteSponsor .swiper-slide img {
+        width: 100%;
+        height: 30px;
+        object-position: center;
+        object-fit: contain;
+    }
+</style>
+
+<script>
+    const swiperLiteSponsor = new Swiper(".swiperLiteSponsor", {
+        autoplay: true,
+        grabCursor: true,
+        loop: true,
+        centeredSlides: false,
+        slidesPerView: 2,
+        spaceBetween: 10,
+        breakpoints: {
+                // when window width is >= 320px
+                576: {
+                    slidesPerView: 2,
+                    spaceBetween: 10
+                },
+                // when window width is >= 480px
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 15
+                },
+                // when window width is >= 640px
+                992: {
+                    slidesPerView: 4,
+                    spaceBetween: 30
+            },
+        },
+    });
+</script>
+
+<section id="sponsor" class="p-5">
+    <div class="container d-flex flex-wrap align-items-center">
+        <div class="col-12">
+            <div class="position-relative">
+                <div class="swiper swiperSponsor">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="https://server.lionofinformatics.net/assets/images/logo/digital-ocean.png" alt"digital ocean"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://server.lionofinformatics.net/assets/images/logo/azure.png" alt"azure"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://server.lionofinformatics.net/assets/images/logo/kubernetes.png" alt"kubernetes"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://server.lionofinformatics.net/assets/images/logo/docker.png" alt"docker"/>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://server.lionofinformatics.net/assets/images/logo/aws.png" alt"aws"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    #sponsor {
+        background: rgba(42, 87, 154, 0.25);
+    }
+
+    .swiperSponsor .swiper-slide img {
+        width: 100%;
+        height: 50px;
+        object-position: center;
+        object-fit: contain;
+    }
+</style>
+
+<script>
+    const swiperSponsor = new Swiper(".swiperSponsor", {
+        autoplay: true,
+        grabCursor: true,
+        loop: true,
+        centeredSlides: false,
+        slidesPerView: 2,
+        spaceBetween: 10,
+        breakpoints: {
+                // when window width is >= 320px
+                576: {
+                    slidesPerView: 2,
+                    spaceBetween: 10
+                },
+                // when window width is >= 480px
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 15
+                },
+                // when window width is >= 640px
+                992: {
+                    slidesPerView: 5,
+                    spaceBetween: 30
+            },
+        },
+    });
+</script>
+
+<section id="packagePro" class="mb-5 pb-5">
+    <div class="container my-5">
+        <div class="poppins mb-5">
+            <h1 class="fs-3 text-dark-blue fw-semibold mb-4">Package Profesional</h1>
+            <p class="fs-5">
+                Kebutuhan platform anda mungkin membutuhkan layanan khusus dengan dukungan arsitektur server yang efektif untuk menunjang performa yang luar biasa. Untuk itu kami menyediakan paket multiple server untuk memisahkan resource aplikasi, database, dan file management.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-12 col-xl-4 mb-3 mb-xl-0 px-3 px-sm-5 px-xl-3">
+                <div class="card card-pro-package h-100 shadow">
+                    <div class="card-body p-4 d-flex flex-column poppins">
+                        <h2 class="fs-4 mb-2 text-center">Single</h2>
+                        <h3 class="fs-5 text-center fw-light mb-4">Recomendation for Start Up</h3>
+                        <div class="d-flex flex-wrap justify-content-between mb-4">
+                            <div class="col-auto d-flex flex-column">
+                                <span class="text-decoration-line-through text-danger fs-5">IDR 85jt</span>
+                                <span class="fs-2 text-light-grey">IDR 75jt</span>
+                            </div>
+                            <div class="col-auto mt-auto">
+                                <span class="fs-14px text-light-grey">/years</span>
+                            </div>
+                        </div>
+                        <div class="list-detail-package mb-3">
+                            <div class="collapse-title p-2 d-flex flex-wrap justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSingle1" aria-expanded="true" aria-controls="#collapseSingle1">
+                                <span class="content-title text-start text-dark-blue col-auto ps-2">Server App</span>
+                                <i class="fas fa-chevron-down col-auto"></i>
+                            </div>
+                            <div class="collapse flex-column show" id="collapseSingle1">
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>RAM</span>
+                                    <span>2 GB</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>CPU</span>
+                                    <span>3 Core</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>Storage</span>
+                                    <span>Unlimited</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>Bandwith</span>
+                                    <span>Unlimited</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>Network Speed</span>
+                                    <span>500 Mbps</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>SSL Certificate</span>
+                                    <span>Yes</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="notes d-flex flex-column mb-5">
+                            <span class="fs-6 text-dark-blue">*) Free Domain</span>
+                            <span class="fs-6 text-dark-blue">*) Free Setup & Configuration</span>
+                        </div>
+                        <div class="mt-auto mx-auto">
+                            <a href="#" class="btn btn-lg btn-action fs-6 px-5">Purchase Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xl-4 mb-3 mb-xl-0 px-3 px-sm-5 px-xl-3">
+                <div class="card card-pro-package h-100 shadow">
+                    <div class="card-body p-4 d-flex flex-column poppins">
+                        <h2 class="fs-4 mb-2 text-center">Double</h2>
+                        <h3 class="fs-5 text-center fw-light mb-4">Recomendation for Start Up</h3>
+                        <div class="d-flex flex-wrap justify-content-between mb-4">
+                            <div class="col-auto d-flex flex-column">
+                                <span class="text-decoration-line-through text-danger fs-5">IDR 100jt</span>
+                                <span class="fs-2 text-light-grey">IDR 90jt</span>
+                            </div>
+                            <div class="col-auto mt-auto">
+                                <span class="fs-14px text-light-grey">/years</span>
+                            </div>
+                        </div>
+                        <div class="list-detail-package mb-3">
+                            <div class="collapse-title p-2 d-flex flex-wrap justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDouble1" aria-expanded="true" aria-controls="#collapseDouble1">
+                                <span class="content-title text-start text-dark-blue col-auto ps-2">Server App</span>
+                                <i class="fas fa-chevron-down col-auto"></i>
+                            </div>
+                            <div class="collapse flex-column show" id="collapseDouble1">
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>RAM</span>
+                                    <span>2 GB</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>CPU</span>
+                                    <span>3 Core</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>Storage</span>
+                                    <span>Unlimited</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>Bandwith</span>
+                                    <span>Unlimited</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>Network Speed</span>
+                                    <span>500 Mbps</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>SSL Certificate</span>
+                                    <span>Yes</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-detail-package mb-3">
+                            <div class="collapse-title p-2 d-flex flex-wrap justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDouble2" aria-expanded="false" aria-controls="#collapseDouble2">
+                                <span class="content-title text-start text-dark-blue col-auto ps-2">Server Database</span>
+                                <i class="fas fa-chevron-down col-auto"></i>
+                            </div>
+                            <div class="collapse flex-column" id="collapseDouble2">
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>RAM</span>
+                                    <span>2 GB</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>CPU</span>
+                                    <span>3 Core</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>Storage</span>
+                                    <span>Unlimited</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>Bandwith</span>
+                                    <span>Unlimited</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>Network Speed</span>
+                                    <span>500 Mbps</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>SSL Certificate</span>
+                                    <span>Yes</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="notes d-flex flex-column mb-5">
+                            <span class="fs-6 text-dark-blue">*) Free Domain</span>
+                            <span class="fs-6 text-dark-blue">*) Free Setup & Configuration</span>
+                        </div>
+                        <div class="mt-auto mx-auto">
+                            <a href="#" class="btn btn-lg btn-action fs-6 px-5">Purchase Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xl-4 mb-3 mb-xl-0 px-3 px-sm-5 px-xl-3">
+                <div class="card card-pro-package h-100 shadow">
+                    <div class="card-body p-4 d-flex flex-column poppins">
+                        <h2 class="fs-4 mb-2 text-center">Multiple</h2>
+                        <h3 class="fs-5 text-center fw-light mb-4">Recomendation for Start Up</h3>
+                        <div class="d-flex flex-wrap justify-content-between mb-4">
+                            <div class="col-auto d-flex flex-column">
+                                <span class="text-decoration-line-through text-danger fs-5">IDR 135jt</span>
+                                <span class="fs-2 text-light-grey">IDR 120jt</span>
+                            </div>
+                            <div class="col-auto mt-auto">
+                                <span class="fs-14px text-light-grey">/years</span>
+                            </div>
+                        </div>
+                        <div class="list-detail-package mb-3">
+                            <div class="collapse-title p-2 d-flex flex-wrap justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMultiple1" aria-expanded="true" aria-controls="#collapseMultiple1">
+                                <span class="content-title text-start text-dark-blue col-auto ps-2">Server App</span>
+                                <i class="fas fa-chevron-down col-auto"></i>
+                            </div>
+                            <div class="collapse flex-column show" id="collapseMultiple1">
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>RAM</span>
+                                    <span>2 GB</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>CPU</span>
+                                    <span>3 Core</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>Storage</span>
+                                    <span>Unlimited</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>Bandwith</span>
+                                    <span>Unlimited</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>Network Speed</span>
+                                    <span>500 Mbps</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>SSL Certificate</span>
+                                    <span>Yes</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-detail-package mb-3">
+                            <div class="collapse-title p-2 d-flex flex-wrap justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMultiple2" aria-expanded="false" aria-controls="#collapseMultiple2">
+                                <span class="content-title text-start text-dark-blue col-auto ps-2">Server Database</span>
+                                <i class="fas fa-chevron-down col-auto"></i>
+                            </div>
+                            <div class="collapse flex-column" id="collapseMultiple2">
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>RAM</span>
+                                    <span>2 GB</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>CPU</span>
+                                    <span>3 Core</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>Storage</span>
+                                    <span>Unlimited</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>Bandwith</span>
+                                    <span>Unlimited</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>Network Speed</span>
+                                    <span>500 Mbps</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>SSL Certificate</span>
+                                    <span>Yes</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-detail-package mb-3">
+                            <div class="collapse-title p-2 d-flex flex-wrap justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMultiple3" aria-expanded="false" aria-controls="#collapseMultiple3">
+                                <span class="content-title text-start text-dark-blue col-auto ps-2">Server Bucket</span>
+                                <i class="fas fa-chevron-down col-auto"></i>
+                            </div>
+                            <div class="collapse flex-column" id="collapseMultiple3">
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>RAM</span>
+                                    <span>2 GB</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>CPU</span>
+                                    <span>3 Core</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>Storage</span>
+                                    <span>Unlimited</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>Bandwith</span>
+                                    <span>Unlimited</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>Network Speed</span>
+                                    <span>500 Mbps</span>
+                                </div>
+                                <div class="content-list d-flex flex-wrap justify-content-between p-2 fs-14px">
+                                    <span>SSL Certificate</span>
+                                    <span>Yes</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="notes d-flex flex-column mb-5">
+                            <span class="fs-6 text-dark-blue">*) Free Domain</span>
+                            <span class="fs-6 text-dark-blue">*) Free Setup & Configuration</span>
+                        </div>
+                        <div class="mt-auto mx-auto">
+                            <a href="#" class="btn btn-lg btn-action fs-6 px-5">Purchase Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    #packagePro {
+
+    }
+
+    #packagePro .card-pro-package {
+        background: #FFFFFF;
+        box-shadow: 0px 5px 10px rgba(79, 79, 79, 0.25);
+        border-radius: 10px;
+    }
+
+    #packagePro .card-pro-package .btn-action {
+        background: #D9D9D9;
+        border-radius: 25px;
+    }
+
+    #packagePro .list-detail-package .collapse-title {
+        box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
+    }
+
+    #packagePro .list-detail-package .content-title {
+        border-left: 1px solid #2A579A;
+    }
+
+    #packagePro .list-detail-package .content-list {
+        border-bottom: 1px solid #D9D9D9;
+        color: #828282;
+    }
+    
+    #packagePro .list-detail-package .collapse-title .fa-chevron-down {
+        /* transform: rotate(0deg) !important; */
+    }
+
+    #packagePro .list-detail-package .collapse-title.collapsed .fa-chevron-down {
+        transform: rotate(180deg) !important;
+    }
+</style>
+
+<section id="bottomNavigation" class="mb-5 pb-5"></section>
+
+<script>
+  async function renderBottomNavContent() {
+      let navigations = await getData('assets/data/bottom_nav.json');
+      
+      socialMediaElements = "";
+
+      let icons = navigations.social_media.forEach(socmed => {
+        socialMediaElements += `
+            <a href="${socmed.url}" class="me-3 text-dark"><i class="${socmed.icon}"></i></a>
+        `
+      })
+
+      menuElements = "";
+
+      let menus = navigations.menus.forEach(menu => {
+        subMenuElements = ""
+        
+        menu.sub_menus.forEach(sub_menu => {
+            subMenuElements += `<a href="${sub_menu.url}" class="mb-3 text-dark text-underline-none">${sub_menu.title}</a>`
+        })
+
+        menuElements += `
+            <div class="poppins mb-5 pe-0 pe-sm-3 col-6 col-sm-3">
+                <h1 class="fs-4 text-dark-blue mb-4">${menu.title}</h1>
+                <div class="d-flex flex-column">
+                    ${subMenuElements}
+                </div>
+            </div>
+        `
+      })
+
+      let html =
+        `<div class="container my-5 py-5">
+            <div class="row">
+                <div class="col-12 col-xl-6">
+                    <div class="poppins mb-5 col-12 col-xl-6">
+                        <h1 class="fs-4 text-dark-blue mb-4">${navigations.title}</h1>
+                        <p class="fs-14px">
+                        ${navigations.description}
+                        </p>
+                        <div class="d-flex flex-wrap">
+                            ${socialMediaElements}
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-xl-6 d-flex flex-wrap justify-content-sm-end">
+                    ${menuElements}
+                </div>
+            </div>
+        </div>`;
+      let container = document.querySelector('#bottomNavigation');
+      container.innerHTML = html;
+  }
+
+  renderBottomNavContent();
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@1.15.1/dist/tsparticles.min.js"></script>
+<script src="https://server.lionofinformatics.net/assets/js/script.js?ver=1.3"></script>
+<script src="https://server.lionofinformatics.net/assets/js/bootstrap-v5.2.3/bootstrap.bundle.min.js"></script>
+
+<footer id="footer" class="poppins bg-dark-blue w-100 py-4">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center">
+        <div class="col-12 col-lg-6 col-xl-7 text-center text-lg-start order-2">
+            <span class="copyright fs-6">
+                Copyright © 2020 - 2023 BPPP Bitung.
+            </span>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-5 mb-3 mb-lg-0 order-lg-2">
+            <ul class="nav-links m-auto d-flex flex-wrap fs-6 p-0 justify-content-around">
+                <li><a href="">Copyright</a></li>
+                <li><a href="">Disclaimer</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms of Use</a></li>
+            </ul>
+        </div>
+    </div>
+</footer><script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "eed5d1cf-5d91-4899-ba2e-b8562b8eec03", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "bb522286-022f-49fe-8c34-e1141640b180", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+</body>
+</html>
